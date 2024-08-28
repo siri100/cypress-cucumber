@@ -119,7 +119,3 @@ Check the types and validate the code using TypeScript without compilation.
 ```bash
 npm run lint:tsc
 ```
-
-# License
-
-[MIT](./LICENSE)
