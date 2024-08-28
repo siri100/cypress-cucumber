@@ -48,9 +48,9 @@ npm test
 ```bash
     Spec                                              Tests  Passing  Failing  Pending  Skipped
 ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
-│ ✔  web/Duckduckgo.feature                  00:10        3        3        -        -        -  │
+│ ✔  web/sample-wdio.feature                  00:08        1        1        -        -        -  │
 └────────────────────────────────────────────────────────────────────────────────────────────────┘
-  ✔  All specs passed!                       00:10        3        3        -        -        -
+  ✔  All specs passed!                       00:08        1        1        -        -        -
 ```
 
 **HTML report**:
@@ -69,7 +69,7 @@ npm run tag:smoke
 ### Running using customized tags
 
 ```bash
-npx cypress run --env tags="@smoke and @duckduckgo"
+npx cypress run --env tags="@smoke"
 ```
 
 *more details*: [tags](https://github.com/badeball/cypress-cucumber-preprocessor/blob/master/docs/tags.md)
